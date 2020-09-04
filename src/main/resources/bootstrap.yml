@@ -1,0 +1,5 @@
+# IDENTITY
+spring.application.name: eureka-discovery-services
+
+# BANNER
+spring.banner.location: classpath:banner.txt
