@@ -1,5 +1,11 @@
 # IDENTITY
-spring.application.name: eureka-discovery-services
+spring:
+  application:
+    name: eureka-service-discovery-services
 
-# BANNER
-spring.banner.location: classpath:banner.txt
+# SPRING CLOUD CONFIG URI
+  cloud:
+    config:
+      uri: https://chinook-services.herokuapp.com
+
+

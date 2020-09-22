@@ -1,0 +1,21 @@
+# LOGGING (Spring Boot 2 requires logging.file.name)
+logging:
+  file:
+    name: /home/lylio/Documents/logs/eureka.log
+
+# BANNER
+spring.banner.location: classpath:banner.txt
+
+# Embedded Server Configuration
+server:
+  port: 8010
+
+#Eureka Config
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      defaultzone: http://localhost:8010/eureka
+
+
